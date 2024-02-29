@@ -1,5 +1,7 @@
 body {
   font-family: "Roboto", sans-serif;
+  color: #434455;
+  background-color: #ffffff;
 }
 
 ul {
@@ -15,9 +17,6 @@ button {
 }
 
 .visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
   margin: -1px;
   border: 0;
   padding: 0;
@@ -43,7 +42,7 @@ button {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #2e2f42;
+  color: #4d5ae5;
 }
 
 .header-logo span {
@@ -53,7 +52,7 @@ button {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #4d5ae5;
+  color: #2e2f42;
 }
 
 .header-list {
@@ -70,7 +69,13 @@ button {
   color: #2e2f42;
 }
 
+.header-menu-link:hover,
+.header-menu-link:focus {
+  color: #404bbf;
+}
+
 .header-address {
+  font-style: normal;
 }
 
 .header-address-list {
@@ -80,11 +85,15 @@ button {
 }
 
 .header-address-contacts {
-  font-style: normal;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+}
+
+.header-address-contacts:hover,
+.header-address-contacts:focus {
+  color: #404bbf;
 }
 
 /** ============================== */
@@ -115,6 +124,10 @@ button {
   color: #fff;
 }
 
+.hero-btn-text:hover,
+.hero-btn-text:focus {
+  color: #404bbf;
+}
 /** ============================== */
 
 /** =============ABILITIES================= */
@@ -145,6 +158,10 @@ button {
 
 /** =============TEAM================= */
 
+.team {
+  background-color: #f4f4fd;
+}
+
 .team-title {
   font-weight: 700;
   font-size: 36px;
@@ -155,6 +172,7 @@ button {
   color: #2e2f42;
 }
 .team-list {
+  background-color: #ffffff;
 }
 .team-item {
 }
@@ -223,21 +241,23 @@ button {
 }
 
 .footer-logo {
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: #f4f4fd;
-}
-
-.footer-logo span {
+  font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+}
+
+.footer-logo span {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #f4f4fd;
 }
 
 .footer-text {
