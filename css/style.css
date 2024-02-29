@@ -214,6 +214,10 @@ button {
 
 /** =============FOOTER================= */
 
+.footer {
+  background: #2e2f42;
+}
+
 .footer-logo {
   font-weight: 700;
   font-size: 18px;
